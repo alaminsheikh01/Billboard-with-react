@@ -4,7 +4,7 @@ import video from "../asset/images/Hero Image.mp4";
 function Header() {
   return (
     <>
-      <section className="nav_custom">
+      <section className="nav_custom container-fluid">
         <nav
           class="navbar navbar-light bg-light"
           style={{ justifyContent: "space-between" }}
@@ -19,17 +19,16 @@ function Header() {
             <h4>EXCLUSIVE CO-OP MAILER</h4>
           </div>
         </nav>
-
-        <video
-          width="400"
-          controls
-          style={{ width: "100%", height: "auto" }}
-          autoPlay
-        >
-          <source src={video} type="video/mp4" />
-          Your browser does not support HTML5 video.
-        </video>
       </section>
+      <video
+        width="400"
+        controls
+        style={{ width: "100%", height: "auto" }}
+        autoPlay
+      >
+        <source src={video} type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
     </>
   );
 }
