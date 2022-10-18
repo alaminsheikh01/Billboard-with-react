@@ -1,7 +1,8 @@
 import React from "react";
-import img1 from "../asset/images/back.jpg";
+import img1 from "../asset/images/ad_design.jpg";
 import img2 from "../asset/images/multi_img.jpg";
-import img3 from "../asset/images/side.png";
+import img3 from "../asset/images/front.png";
+import img4 from "../asset/images/back.png";
 
 const Plus = () => {
   return (
@@ -125,7 +126,7 @@ const Plus = () => {
           </div>
           <div className="col-md-6 text-center">
             <h3>Side2</h3>
-            <img src={img3} className="img-fluid" />
+            <img src={img4} className="img-fluid" />
           </div>
         </div>
         <p
